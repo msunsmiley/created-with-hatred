@@ -63,6 +63,10 @@ if on
 		draw_set_color(c_white)
 		draw_text_ext(bx+4,by+100,itemDesc,16,218);
 	}
+	draw_set_font(fntChatSm)
+	draw_set_halign(fa_left)
+	draw_set_valign(fa_top)
+	draw_text(2,display_get_gui_height()-14,GM_version)
 }
 
 draw_set_halign(fa_left)

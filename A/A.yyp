@@ -4,8 +4,6 @@
   "name": "A",
   "resources": [
     {"id":{"name":"fight2","path":"sounds/fight2/fight2.yy",},"order":6,},
-    {"id":{"name":"fntMenuTitle","path":"fonts/fntMenuTitle/fntMenuTitle.yy",},"order":1,},
-    {"id":{"name":"fntMenu","path":"fonts/fntMenu/fntMenu.yy",},"order":0,},
     {"id":{"name":"sprGun","path":"sprites/sprGun/sprGun.yy",},"order":22,},
     {"id":{"name":"rm5","path":"rooms/rm5/rm5.yy",},"order":5,},
     {"id":{"name":"overworld","path":"sounds/overworld/overworld.yy",},"order":4,},
