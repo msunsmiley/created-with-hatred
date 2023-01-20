@@ -22,7 +22,7 @@
     {"resourceType":"GMRBackgroundLayer","resourceVersion":"1.0","name":"Background","spriteId":null,"colour":4278190080,"x":0,"y":0,"htiled":true,"vtiled":true,"hspeed":0.0,"vspeed":0.0,"stretch":false,"animationFPS":30.0,"animationSpeedType":0,"userdefinedAnimFPS":false,"visible":true,"depth":100,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritVisibility":true,"inheritSubLayers":true,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":true,"effectEnabled":true,"effectType":null,"properties":[],},
   ],
   "inheritLayers": false,
-  "creationCodeFile": "${project_dir}/rooms/rm1/RoomCreationCode.gml",
+  "creationCodeFile": "${project_dir}/rooms/rmHappy/RoomCreationCode.gml",
   "inheritCode": false,
   "instanceCreationOrder": [
     {"name":"inst_341F8CC3","path":"rooms/rmHappy/rmHappy.yy",},

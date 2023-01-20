@@ -2,7 +2,7 @@
 // You can write your code in this editor
 
 
-if !oMenu.on && action && (heredown || hereleft) talk++;
+if !oMenu.on && global.keyAction && (heredown || hereleft) talk++;
 
 
 if talk npc_talk_multi();

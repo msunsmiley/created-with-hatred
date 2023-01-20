@@ -3,7 +3,7 @@
 
 
 if oMenu.itemAmnt==8 exit;
-if !oMenu.on && keyPressed(vk_space) && !global.infight && !oPlayer.event
+if !oMenu.on && global.keyAction && !global.infight && !oPlayer.event
 {
 	var enemy = sprite_get_name(other.sprite_index)
 	

@@ -8,7 +8,7 @@ if oPlayer.bluddy && INTERACT_REQUIREMENTS_BASIC && (heredown) interaction();
 if heredown here=1;
 else here=0;
 
-if oMenu.on && talk && action {
+if oMenu.on && talk && global.keyAction {
 	talk++;
 	switch (talk) {
 		case 2: oChat.create("You threw away the " + item + "."); break;

@@ -2,9 +2,13 @@
 // You can write your code in this editor
 
 
-if !oMenu.on && global.keyAction && heredown talk++;
+Trans(rmHappy)
 
-if talk npc_talk_multi()
+
+
+
+
+
 
 
 

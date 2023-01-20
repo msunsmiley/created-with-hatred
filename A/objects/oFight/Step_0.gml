@@ -8,10 +8,10 @@ mainDef = oPlayer.def
 
 if !enemyMoving
 {
-	if keyPressed(ord("W")) && sel==1 sel=0;
-	if keyPressed(ord("S")) && sel==0 sel=1;
+	if global.keyUpP && sel==1 sel=0;
+	if global.keyDownP && sel==0 sel=1;
 	
-	if keyPressed(vk_space) && !global.midTransition {
+	if global.keyAction && !global.midTransition {
 		if tempD==0 {
 			if sel==0 moveMain="Hit"
 			else moveMain="Gaurd"
@@ -27,7 +27,7 @@ if !enemyMoving
 		enemyMoving=1; tempC=0; moveEnemy="Attack";
 		}
 	
-	if keyPressed(ord("X")) && tempD>0 { tempD--; sel=0; }
+	if global.keyBack && tempD>0 { tempD--; sel=0; }
 }
 
 if enemyMoving {

@@ -3,9 +3,7 @@
 
 
 //MACROS
-#macro INTERACT_REQUIREMENTS_BASIC !oMenu.on && action && oChat.interact
-
-#macro keyPressed keyboard_check_pressed
+#macro INTERACT_REQUIREMENTS_BASIC !oMenu.on && global.keyAction && oChat.interact
 
 //Functions
 function is_in_range(xx,a,b){
@@ -21,8 +19,6 @@ function is_in_range(xx,a,b){
 }
 
 //NEW COLLISIONS
-
-#macro action keyPressed(vk_space)
 
 #macro heredown \
 ( \

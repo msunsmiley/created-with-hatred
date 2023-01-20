@@ -14,8 +14,6 @@ text= [
 ]
 
 oPlayer.x=-200;
-oPlayer.event=1;
-oMenu.on=false;
 asdf=0;
 talk=0;
 alarm[0]= 160;

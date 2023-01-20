@@ -23,5 +23,5 @@ when reentering the first room.
 
 - Code clean-up & optimization
 - Controller support
-- Removing the player hitbox object.
 - Show version at the lower left corner when opening menu
+* Bug fix

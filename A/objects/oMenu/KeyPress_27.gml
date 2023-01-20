@@ -2,9 +2,13 @@
 // You can write your code in this editor
 
 
-if !oMenu.on && global.keyAction && heredown talk++;
+if room != rmEnd game_end()
 
-if talk npc_talk_multi()
+
+
+
+
+
 
 
 

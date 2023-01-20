@@ -2,14 +2,10 @@
 // You can write your code in this editor
 
 
-if (keyPressed(vk_escape)) {
-	game_end();
-}
-
 var _nodesc = "DESCRIPTION_NOT_SET"
 
 //Open menu
-if (keyPressed(ord("Q")) && !global.infight && !oPlayer.event )
+if (global.keyMenu && !global.infight && !oPlayer.event )
 {
 	if (!inItems && !inWish && !oPlayer.event){
 		if !on { on=true; }
@@ -29,21 +25,21 @@ if (keyPressed(ord("Q")) && !global.infight && !oPlayer.event )
 if on && !oPlayer.event
 {
 	if (!inItems && !inWish) {
-		if (keyPressed(ord("S")) && selection<1){
+		if (global.keyDownP && selection<1){
 			selection++;
 		}
 
-		if (keyPressed(ord("W")) && selection>0){
+		if (global.keyUpP   && selection>0){
 			selection--;
 		}
 	}
 	
 	if (inItems && !inWish){
-		if (keyPressed(ord("W")) && itemSel > 1) {itemSel-=2; itemSely--;}
-		if (keyPressed(ord("A")) && itemSel > 0 && (itemSel % 2.0) ) {itemSel-=1; itemSelx=0;}
-		if (keyPressed(ord("S")) && itemSel<itemAmnt-2 ) {itemSel+=2; itemSely++;}
-		if (keyPressed(ord("D")) && itemSel<itemAmnt-1 && !(itemSel % 2.0)) {itemSel+=1; itemSelx=1;}
-		if (keyPressed(vk_space)) && room != rmEnd itemUse();
+		if (global.keyUpP    && itemSel > 1) {itemSel-=2; itemSely--;}
+		if (global.keyLeftP  && itemSel > 0 && (itemSel % 2.0) ) {itemSel-=1; itemSelx=0;}
+		if (global.keyDownP  && itemSel<itemAmnt-2 ) {itemSel+=2; itemSely++;}
+		if (global.keyRightP && itemSel<itemAmnt-1 && !(itemSel % 2.0)) {itemSel+=1; itemSelx=1;}
+		if (global.keyAction) && room != rmEnd itemUse();
 		
 		if(itemSel == itemAmnt) {itemSel=0;itemSelx=0;itemSely=0;}
 		
@@ -61,7 +57,7 @@ if on && !oPlayer.event
 		
 	}
 	
-	if (keyPressed(vk_space)){
+	if global.keyAction {
 		switch (selection){
 		case 0: inItems=true; break;
 		case 1: game_end(); break;

@@ -19,15 +19,15 @@ if global.happinessAchieved happy_text="Happy";
 
 //IF THERE IS EVENT, NO MOVING
 if (!event && !oMenu.on) {
-	hInput = keyboard_check(ord("D")) - keyboard_check(ord("A"));
-	vInput = keyboard_check(ord("S")) - keyboard_check(ord("W"));
+	hInput = global.keyRight - global.keyLeft;
+	vInput = global.keyDown - global.keyUp;
 	}
 else {
 	hInput=0;vInput=0;
 	}
 
 //IF YOU PRESS A KEY, FIRST FRAME HAS FOOT UP
-if (keyPressed(ord("W")) || keyPressed(ord("A")) || keyPressed(ord("S")) || keyPressed(ord("D")) )
+if (global.keyUpP || global.keyDownP || global.keyLeftP || global.keyRightP)
 {
 	image_index=0;
 }

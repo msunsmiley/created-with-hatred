@@ -1,6 +1,10 @@
 /// @description Insert description here
 // You can write your code in this editor
 
+
+
+
+
 randomize();
 
 event=0;
@@ -18,9 +22,9 @@ atk=0;
 def=0;
 
 //to start at a specific room:
-start_room = rm3
+//start_room = rm3
 
-room_goto(start_room);
+//room_goto(start_room);
 
 //GLOBAL VARIABLES
 
