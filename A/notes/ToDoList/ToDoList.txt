@@ -6,10 +6,10 @@
 ! Use ctrl shift f to remove everything commented with "REMOVE LATER"
 ! Remove object GMLive from the game, along with the "Live" macro
 
-* Main menu selector
-* "Win" at rmEnd
-* Normal ending center touch death
 
+
+
+V1.1.1
 ------  V1.1 STUFF  -------
 
 - Code clean-up & optimization
