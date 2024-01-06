@@ -96,10 +96,7 @@ if (turn==enemyFade) {
 	global.infight=2;
 }
 
-// REMOVE LATER
 if !global.midTransition && mainHP <= 0 || mainDeath == 5 {
-	audio_stop_all();
-	audio_play_sound(gameover,0,1);
-	Trans(rm_gameover)
+	gameOver();
 }
 

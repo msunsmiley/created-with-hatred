@@ -86,6 +86,14 @@ function outline_this(x,y,string){
 }
 */
 
+function gameOver(){
+	if !global.midTransition {
+		audio_stop_all();
+		audio_play_sound(gameover,0,1);
+		Trans(rm_gameover);
+	}
+}
+
 function gameOverText(sep, text){
 	draw_set_color(c_purple)
 	draw_text_ext(room_width/2 - 1,posy + sep -1 ,text, 14, 290)
