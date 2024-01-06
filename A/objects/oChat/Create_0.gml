@@ -1,7 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-text="";
+text=" ";
 color=c_orange;
 yesNo=0;
 interact=1;

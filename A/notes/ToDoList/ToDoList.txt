@@ -6,18 +6,9 @@
 ! Use ctrl shift f to remove everything commented with "REMOVE LATER"
 ! Remove object GMLive from the game, along with the "Live" macro
 
-- enemy fade out finish
-
-- "Wishes" is now an unused feature. remove Wish overview from menu
-
-* Throwing away Bluddy turns the 'bluddy switch' back off, effectivley removing Bluddy from the team,
-however also making the game think Bluddy was in fact not collected, causing respawning of Bluddy
-when reentering the first room.
-
-* Correct Suffucator with its shadow
-
-* When an enemy is defeated, leaving that room and then coming back to it causes weird shadow glitch
-
+* Main menu selector
+* "Win" at rmEnd
+* Normal ending center touch death
 
 ------  V1.1 STUFF  -------
 

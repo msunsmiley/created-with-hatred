@@ -6,7 +6,7 @@ var _nodesc = "DESCRIPTION_NOT_SET"
 
 //Open menu
 if (global.keyMenu && !global.infight && !oPlayer.event )
-{
+{ selection=0;
 	if (!inItems && !inWish && !oPlayer.event){
 		if !on { on=true; }
 		else  { on = false; }
@@ -22,7 +22,7 @@ if (global.keyMenu && !global.infight && !oPlayer.event )
 }
 
 //Menu main
-if on && !oPlayer.event
+if on
 {
 	if (!inItems && !inWish) {
 		if (global.keyDownP && selection<1){
@@ -60,7 +60,7 @@ if on && !oPlayer.event
 	if global.keyAction {
 		switch (selection){
 		case 0: inItems=true; break;
-		case 1: game_end(); break;
+		case 1: if room!= rmEnd game_end(); break;
 		}
 	}
 }
