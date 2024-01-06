@@ -22,7 +22,7 @@ if (global.keyMenu && !global.infight && !oPlayer.event )
 }
 
 //Menu main
-if on
+if on && !oPlayer.event
 {
 	if (!inItems && !inWish) {
 		if (global.keyDownP && selection<1){
