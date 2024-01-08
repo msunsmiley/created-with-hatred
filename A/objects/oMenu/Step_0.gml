@@ -25,6 +25,11 @@ if (global.keyMenu && !global.infight && !oPlayer.event )
 if on && !oPlayer.event
 {
 	if (!inItems && !inWish) {
+		
+		if !keyboard_check(vk_f2) {f2=0;}
+		else f2++;
+		if f2==110 game_restart()
+		
 		if (global.keyDownP && selection<1){
 			selection++;
 		}
